@@ -1,0 +1,12 @@
+/* Without Container */
+.zoom-image {
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  .zoom-image img{
+      width:100%;
+      height:auto;	
+  }
+  .zoom-image:hover {
+    transform: scale(2); 
+  }
